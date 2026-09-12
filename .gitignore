@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+venv_new/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# YOLO / training outputs
+runs/
+*.pt
+
+# Dataset
+data/
+
+# Generated reports
+reports/
+
+# Python cache
+.pytest_cache/

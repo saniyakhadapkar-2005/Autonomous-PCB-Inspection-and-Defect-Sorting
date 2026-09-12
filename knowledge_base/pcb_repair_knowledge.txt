@@ -1,0 +1,152 @@
+PCB DEFECT REPAIR KNOWLEDGE BASE
+
+DEFECT: Solder Ball
+
+Description:
+A solder ball is a small spherical deposit of solder found on the PCB surface.
+It can occur due to excessive solder paste, reflow conditions, contamination,
+or improper soldering.
+
+Severity:
+Low to Medium.
+
+Repairability:
+High.
+
+Recommended Repair:
+Inspect the affected area using magnification.
+Remove the unwanted solder ball carefully using appropriate rework tools.
+Clean the area using suitable PCB cleaning procedures.
+Inspect nearby components and solder joints after removal.
+
+Typical Repair Time:
+5 to 15 minutes.
+
+Estimated Prototype Repair Cost:
+50 to 150 INR.
+
+Decision Guidance:
+Usually repairable if the solder ball has not caused significant electrical
+damage or short circuit.
+
+
+DEFECT: Solder Bridge
+
+Description:
+A solder bridge occurs when solder unintentionally connects two conductive
+pads, pins, or traces.
+
+Severity:
+Medium.
+
+Repairability:
+High.
+
+Recommended Repair:
+Inspect the shorted pins or pads.
+Remove excess solder using solder wick or an appropriate rework tool.
+Clean the area and inspect for remaining solder connections.
+Perform electrical continuity testing if required.
+
+Typical Repair Time:
+5 to 20 minutes.
+
+Estimated Prototype Repair Cost:
+100 to 250 INR.
+
+Decision Guidance:
+Generally repairable when the affected area is accessible and the PCB
+itself is not severely damaged.
+
+
+DEFECT: Missing Component
+
+Description:
+A missing component occurs when a required electronic component is absent
+from its intended PCB location.
+
+Severity:
+Medium.
+
+Repairability:
+High to Medium.
+
+Recommended Repair:
+Identify the missing component from the PCB design or bill of materials.
+Verify component type, value, package, and orientation.
+Install the correct replacement component.
+Inspect solder joints after installation and perform functional testing.
+
+Typical Repair Time:
+10 to 30 minutes.
+
+Estimated Prototype Repair Cost:
+100 to 500 INR.
+
+Decision Guidance:
+Usually repairable when the correct replacement component is available
+and the PCB pads are intact.
+
+
+DEFECT: Damaged Component
+
+Description:
+A damaged component is an electronic component that shows visible physical
+or soldering-related damage.
+
+Severity:
+Medium to High.
+
+Repairability:
+Medium.
+
+Recommended Repair:
+Inspect the component and surrounding PCB area.
+Determine whether the component itself or surrounding traces are damaged.
+If required, remove the damaged component and replace it with a compatible
+component.
+Perform electrical and functional testing.
+
+Typical Repair Time:
+15 to 45 minutes.
+
+Estimated Prototype Repair Cost:
+200 to 800 INR.
+
+Decision Guidance:
+Repairability depends on component availability and whether surrounding
+PCB traces and pads remain intact.
+
+
+DEFECT: Damaged Board
+
+Description:
+A damaged board refers to major physical damage affecting the PCB structure,
+such as severe breakage, burning, large damaged areas, or extensive trace
+damage.
+
+Severity:
+High to Critical.
+
+Repairability:
+Low.
+
+Recommended Repair:
+Perform detailed visual and electrical inspection.
+Check PCB traces, layers, power rails, and affected components.
+If damage is extensive or board integrity is compromised, replacement may
+be more practical than repair.
+
+Typical Repair Time:
+30 to 180 minutes.
+
+Estimated Prototype Repair Cost:
+500 to 3000 INR.
+
+Decision Guidance:
+Reject when damage is severe, board integrity is compromised, or estimated
+repair cost and time exceed the configured limits.
+
+IMPORTANT:
+The repair cost and repair time values in this knowledge base are prototype
+estimates for demonstration purposes and are not actual industrial pricing.

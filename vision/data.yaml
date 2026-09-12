@@ -1,0 +1,10 @@
+path: ../data/pcb_dataset
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: Damaged Board
+  1: Damaged Component
+  2: Missing Component
+  3: Solder Bridge
+  4: Solder Ball
