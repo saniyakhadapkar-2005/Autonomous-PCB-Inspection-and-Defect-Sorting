@@ -4,7 +4,7 @@ An AI-powered system for **automated PCB defect detection, repairability analysi
 
 The system analyzes PCB images, identifies manufacturing defects using **YOLO**, retrieves relevant repair knowledge using **RAG**, makes a repair/reject decision, and uses a **Deep Q-Network (DQN)** with **PyBullet simulation** for robotic sorting.
 
-
+---
 
 ## 🚀 Project Overview
 
@@ -19,7 +19,7 @@ This project provides an intelligent automated pipeline that combines:
 * 🦾 **PyBullet** for robotic-arm simulation
 * 📊 **Streamlit** for an interactive application
 
-### End-to-End Workflow
+### 🔄 End-to-End Workflow
 
 ```text
 PCB Image
@@ -37,10 +37,10 @@ Decision Engine
 ┌───────────────────────┐
 │                       │
 ↓                       ↓
-Repairable           Non-Repairable
+Repairable          Non-Repairable
 │                       │
 ↓                       ↓
-Repair Bin            Reject Bin
+Repair Bin          Reject Bin
 │                       │
 └──────────┬────────────┘
            ↓
@@ -48,47 +48,148 @@ Repair Bin            Reject Bin
            ↓
     PyBullet Simulation
            ↓
-    Sorting Action
+      Sorting Action
+```
 
+---
 
-##🎯 Problem Statement
+## 🎯 Problem Statement
 
-PCB manufacturing generates defective boards such as:
+PCB manufacturing can generate defective boards such as:
 
-  0: Damaged Board
-  1: Damaged Component
-  2: Missing Component
-  3: Solder Bridge
-  4: Solder Ball
+* Damaged Board
+* Damaged Component
+* Missing Component
+* Solder Bridge
+* Solder Ball
 
 Traditional inspection requires human operators to manually identify defects and decide whether a PCB should be repaired or rejected.
 
-The goal of this project is to build an intelligent system that can:
+### Project Goals
 
 1. Detect PCB defects automatically.
 2. Identify the type of defect.
 3. Retrieve relevant repair information.
 4. Determine whether the defect is repairable.
-5. Decide whether the PCB should go to the repair or reject bin.
+5. Decide between repair and reject.
 6. Simulate robotic sorting using Reinforcement Learning.
 
+---
 
+## ✨ Key Features
 
-# 🧰 Technology Stack
+* **Automated PCB Defect Detection** using YOLO
+* **Defect Classification** with bounding-box detection
+* **RAG-based Knowledge Retrieval** for repair information
+* **Repair / Reject Decision Engine**
+* **DQN-based Robotic Sorting**
+* **PyBullet Robotic Simulation**
+* **Interactive Streamlit Dashboard**
+* Modular Python project architecture
 
-| Area                   | Technology                      |
-| ---------------------- | ------------------------------- |
-| Programming            | Python                          |
-| Computer Vision        | OpenCV                          |
-| Object Detection       | YOLO                            |
-| Deep Learning          | PyTorch                         |
-| NLP / RAG              | Embeddings + Vector Retrieval   |
-| Knowledge Base         | Text-based PCB repair knowledge |
-| Reinforcement Learning | DQN                             |
-| Robotics Simulation    | PyBullet                        |
-| Environment            | Gymnasium-style RL environment  |
-| Web UI                 | Streamlit                       |
-| Configuration          | YAML                            |
-| Version Control        | Git & GitHub                    |
+---
 
--
+## 🧰 Technology Stack
+
+| Area                   | Technology                    |
+| ---------------------- | ----------------------------- |
+| Programming            | Python                        |
+| Computer Vision        | OpenCV                        |
+| Object Detection       | YOLO                          |
+| Deep Learning          | PyTorch                       |
+| NLP / RAG              | Embeddings + Vector Retrieval |
+| Knowledge Base         | PCB Repair Knowledge          |
+| Reinforcement Learning | DQN                           |
+| Robotics Simulation    | PyBullet                      |
+| Environment            | Gymnasium                     |
+| Web UI                 | Streamlit                     |
+| Configuration          | YAML                          |
+| Version Control        | Git & GitHub                  |
+
+---
+
+## 📁 Project Structure
+
+```text
+Autonomous-PCB-Inspection-and-Defect-Sorting/
+│
+├── app/             → Streamlit application
+├── config/          → Configuration files
+├── knowledge_base/  → PCB repair knowledge
+├── pipeline/        → Inspection & decision pipeline
+├── rag/             → RAG components
+├── rl/              → DQN & robotic environment
+├── simulation/      → Simulation components
+├── tests/           → Testing utilities
+├── vision/          → YOLO detection & training
+│
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/saniyakhadapkar-2005/Autonomous-PCB-Inspection-and-Defect-Sorting.git
+cd Autonomous-PCB-Inspection-and-Defect-Sorting
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app/main.py
+```
+
+---
+
+## 📌 Dataset
+
+The PCB dataset contains annotated images for defect detection.
+
+The dataset is **not included in this repository** to keep the GitHub repository lightweight.
+
+Place the dataset in the required local `data/` directory before running the complete detection/training pipeline.
+
+---
+
+## 🎯 Project Outcome
+
+The project demonstrates an end-to-end AI pipeline combining:
+
+**Computer Vision → RAG → Decision Making → Reinforcement Learning → Robotic Simulation**
+
+for intelligent PCB inspection and automated defect-based sorting.
+
+---
+
+## 👩‍💻 Author
+
+**Saniya Khadapkar**
+
+MSc Artificial Intelligence Student
+
+**Interests:** AI/ML • Computer Vision • Deep Learning • Generative AI • Reinforcement Learning
