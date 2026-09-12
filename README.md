@@ -217,7 +217,7 @@ It combines **AI-based inspection, knowledge retrieval, decision making, reinfor
 
 **Saniya Khadapkar**
 
-MSc Artificial Intelligence Student
+MSc Artificial Intelligence 
 
 **Interests:**
 AI/ML • Computer Vision • Deep Learning • Generative AI • Reinforcement Learning
