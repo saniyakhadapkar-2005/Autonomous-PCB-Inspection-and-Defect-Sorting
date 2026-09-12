@@ -164,17 +164,7 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 
----
 
-## 📌 Dataset
-
-The PCB dataset contains annotated images for defect detection.
-
-The dataset is **not included in this repository** to keep the GitHub repository lightweight.
-
-Place the dataset in the required local `data/` directory before running the complete detection/training pipeline.
-
----
 
 ## 🎯 Project Outcome
 
