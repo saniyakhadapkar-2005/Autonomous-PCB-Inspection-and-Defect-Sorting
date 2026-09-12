@@ -225,13 +225,16 @@ AI/ML • Computer Vision • Deep Learning • Generative AI • Reinforcement 
 
 ## 📐 Screenshot
 
-1.PCB detection page
+1. PCB detection page
+
 <img width="1600" height="854" alt="PCB detection page" src="https://github.com/user-attachments/assets/cbaaf879-d473-41b0-ae7f-32fbc56b47c5" />
 
-2.sorting simulation
+2. sorting simulation
+   
 <img width="1600" height="837" alt="sorting simulation" src="https://github.com/user-attachments/assets/618f1bfe-5de9-4149-ab9b-f2b13338948e" />
 
-3.generated report
+3. generated report
+
 <img width="1600" height="831" alt="generated report1" src="https://github.com/user-attachments/assets/057eda41-fe62-4835-910f-980dba574afd" />
 
 <img width="1600" height="841" alt="generated report2" src="https://github.com/user-attachments/assets/aa73d9b7-c66d-47c1-be02-8d12a371bf3c" />
