@@ -190,41 +190,6 @@ Autonomous-PCB-Inspection-and-Defect-Sorting/
 └── .gitignore
 ```
 
----
-
-## ⚙️ Installation
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/saniyakhadapkar-2005/Autonomous-PCB-Inspection-and-Defect-Sorting.git
-```
-
-```bash
-cd Autonomous-PCB-Inspection-and-Defect-Sorting
-```
-
-### 2. Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-### 3. Activate Environment
-
-For Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### 4. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## ▶️ Run the Application
 
