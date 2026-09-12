@@ -223,7 +223,8 @@ MSc Artificial Intelligence
 AI/ML • Computer Vision • Deep Learning • Generative AI • Reinforcement Learning
 
 
-##screenshort
+## 📐 Screenshot
+
 1.PCB detection page
 <img width="1600" height="854" alt="PCB detection page" src="https://github.com/user-attachments/assets/cbaaf879-d473-41b0-ae7f-32fbc56b47c5" />
 
