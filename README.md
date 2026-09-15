@@ -220,7 +220,7 @@ It combines **AI-based inspection, knowledge retrieval, decision making, reinfor
 MSc Artificial Intelligence 
 
 **Interests:**
-AI/ML • Computer Vision • Deep Learning • Generative AI • Reinforcement Learning
+AI/ML • Computer Vision • Deep Learning • Rag • Generative AI • Reinforcement Learning
 
 
 ## 📐 Screenshot
